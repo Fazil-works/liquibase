@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
+@Data// bhai hogaya change 
 public class Otp {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
